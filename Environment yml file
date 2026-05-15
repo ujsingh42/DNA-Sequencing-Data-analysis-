@@ -1,0 +1,15 @@
+name: dna_seq_pipeline
+
+channels:
+  - bioconda
+  - conda-forge
+
+dependencies:
+  - fastqc
+  - multiqc
+  - bwa
+  - samtools
+  - bcftools
+  - trimmomatic
+  - python=3.11
+  - r-base
