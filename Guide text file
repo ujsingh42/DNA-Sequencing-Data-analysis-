@@ -1,0 +1,35 @@
+dna-seq-analysis/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── environment.yml
+├── requirements.txt
+│
+├── data/
+│   ├── raw/
+│   ├── trimmed/
+│   └── reference/
+│
+├── scripts/
+│   ├── 01_quality_control.sh
+│   ├── 02_trimming.sh
+│   ├── 03_alignment.sh
+│   ├── 04_sam_to_bam.sh
+│   ├── 05_variant_calling.sh
+│   ├── 06_variant_filtering.sh
+│   ├── 07_annotation.sh
+│   └── 08_multiqc.sh
+│
+├── results/
+│   ├── fastqc/
+│   ├── aligned/
+│   ├── variants/
+│   ├── annotation/
+│   └── reports/
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb
+│
+└── docs/
+    └── workflow_diagram.png
